@@ -13,7 +13,7 @@
 		"twbs/bootstrap":"*"
 		},
 	"autoload":{
-		"psr-4"{
+		"psr-4":{
 		"iamchenxin\\":"src/"
 		}
 	}
