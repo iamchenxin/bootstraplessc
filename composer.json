@@ -1,0 +1,20 @@
+{
+	"name":"iamchenxin/bootstraplessc",
+	"type":"library",
+	"description":"lessc helper for bootstrap",
+	"keywords":["bootstrap"],
+	"homepage":"http://w.qituc.com",
+	"license":"MIT",
+	"authors":[{
+		"name":"iamchenxin",
+		"role":"Developer"
+		}],
+	"require":{
+		"twbs/bootstrap":"*"
+		},
+	"autoload":{
+		"psr-4"{
+		"iamchenxin\\":"src/"
+		}
+	}
+}
