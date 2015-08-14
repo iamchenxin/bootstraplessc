@@ -5,9 +5,10 @@
  * Date: 15-8-13
  * Time: 下午5:17
  */
+namespace iamchenxin;
 require_once (dirname(__FILE__)."/less.php/Less.php");
 
-class BtCompiler{
+class BootstrapLessc{
     protected $bootstrap_dir;
     protected $mediawikiLess_dir;
     protected $bootstrap_mixin;
