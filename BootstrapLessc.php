@@ -6,7 +6,9 @@
  * Time: 下午5:17
  */
 namespace iamchenxin;
-require_once (dirname(__FILE__)."/less.php/Less.php");
+if(!class_exists("Less_Parser")){
+    require_once (dirname(__FILE__)."/less.php/Less.php");
+}
 
 class BootstrapLessc{
     protected $bootstrap_dir;
@@ -39,7 +41,7 @@ class BootstrapLessc{
     */
     public function Compile($less_files,$out_name,$modify_vars=[],$bootstrap_less="mixins",$mediawiki_less="mixins"){
 
-        $lessphp=new Less_Parser($this->cache_dir);
+        $lessphp=new \Less_Parser($this->cache_dir);
 
         switch($bootstrap_less){
             case "mixins":
