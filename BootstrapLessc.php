@@ -27,11 +27,11 @@ class BootstrapLessc{
 
         $this->cache_dir=$cache_dir;
 
-        $this->bootstrap_dir="$IP/vendor/twbs/bootstrap/less";
+        $this->bootstrap_dir="$IP/vendor/iamchenxin/bootstraplessc/bootstrap/less";
         $this->mediawikiLess_dir="$IP/resources/src/mediawiki.less";
 
         $this->bootstrap_mixin=$this->bootstrap_dir."/mixins.less";
-        $this->bootstrap_mixin_url="$wgScriptPath/vendor/twbs/bootstrap";
+        $this->bootstrap_mixin_url="$wgScriptPath/vendor/iamchenxin/bootstraplessc/bootstrap";
         $this->mediawiki_mixin=$this->mediawikiLess_dir."/mediawiki.mixins.less";
         $this->mediawiki_mixin_url="$wgScriptPath/resources/src/mediawiki.less";
     }

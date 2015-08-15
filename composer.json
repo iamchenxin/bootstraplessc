@@ -10,7 +10,6 @@
 		"role":"Developer"
 		}],
 	"require":{
-		"twbs/bootstrap":"*"
 		},
 	"autoload":{
 		"psr-4":{
